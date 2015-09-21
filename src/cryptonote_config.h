@@ -19,7 +19,7 @@
 
 #define MONEY_SUPPLY                                    static_cast<uint64_t>(-1)
 #define EMISSION_SPEED_FACTOR                           (20)
-#define GENESIS_BLOCK_REWARD                            ((MONEY_SUPPLY / 100) * 38)
+#define GENESIS_BLOCK_REWARD                            (MONEY_SUPPLY / 100) //1% premine
 
 #define CRYPTONOTE_REWARD_BLOCKS_WINDOW                 100
 #define CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE       20000 //size of block (bytes) after which reward for block calculated using block size
