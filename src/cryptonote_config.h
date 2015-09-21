@@ -17,7 +17,7 @@
 
 #define BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW               60
 
-#define MONEY_SUPPLY                                    static_cast<uint64_t>(-1)
+#define MONEY_SUPPLY                                    50000000 //50 million coins
 #define EMISSION_SPEED_FACTOR                           (20)
 #define GENESIS_BLOCK_REWARD                            (MONEY_SUPPLY / 100) //1% premine
 
