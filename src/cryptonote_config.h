@@ -66,7 +66,7 @@
 
 #define ALLOW_DEBUG_COMMANDS
 
-#define CRYPTONOTE_NAME                         "redwind"
+#define CRYPTONOTE_NAME                         "LTCGearCoin"
 #define CRYPTONOTE_BLOCKS_FILENAME              "blocks.dat"
 #define CRYPTONOTE_BLOCKINDEXES_FILENAME        "blockindexes.dat"
 #define CRYPTONOTE_BLOCKSCACHE_FILENAME         "blockscache.dat"
