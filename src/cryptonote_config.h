@@ -76,42 +76,4 @@
 
 #define THREAD_STACK_SIZE                       5 * 1024 * 1024
 
-#define GENESIS_COINBASE_TX_HEX "010a01ff0026dc9e8aae8f85d7c70202b86a22436a14ec9402d4ea03533bd8d60699df80f9fe5a49ffa8" \
-                                "915630d5c29adc9e8aae8f85d7c70202118c7c61d0ac5e8007ced242caacf063e6bf20c8cb0471e82a51" \
-                                "ff3d027c8302dc9e8aae8f85d7c70202cacb7b13603deb80ed34c3a5ef80edf28f0de836d123072fe5f4" \
-                                "73cf217250e3dc9e8aae8f85d7c70202893470dcb8ef119b6f41a31ad9c2e788970de3394a2e37a35fbe" \
-                                "b41bfe68fc90dc9e8aae8f85d7c70202bdd92956e3c6482658d80fe3289da78b3aef43ea8fd5d1576509" \
-                                "e30a50acc3aadc9e8aae8f85d7c702024c0a205f2bcd5d69724cafa73085d3f29b3e3410fca1fd42a948" \
-                                "03621b4f65c5dc9e8aae8f85d7c7020299b97f9b57b774cbee476c991723272e01c6707447ec41f4b394" \
-                                "973136d10fdcdc9e8aae8f85d7c7020213a738553af1bbe31abf54bf2f03b12838834a964e6cf8ff49ea" \
-                                "2d4974441f57dc9e8aae8f85d7c70202830b812ac61a049cbe70273362a2501335556e16a25d81f8112e" \
-                                "0a06c4765e5cdc9e8aae8f85d7c70202562c080f1a10200b0a462834dea13b8f9c727d5ee0668526ddf5" \
-                                "38717f8da6fddc9e8aae8f85d7c7020284fc21e3c82fec0b1a3d8f18633c7fe8fce805f34d9531b713d2" \
-                                "ab5b8099809adc9e8aae8f85d7c702028e4ef02f49bca02c0db930e59dc4560463ec78d485637babfab7" \
-                                "eb36d847dfd9dc9e8aae8f85d7c70202094a90fc1eb4709bd39a3332f4936fdfc5d8696ea4a06626f990" \
-                                "bd0764afa644dc9e8aae8f85d7c70202dca7b6784f3839a914ad02e497671792cab0d9f2f3d35885171e" \
-                                "e958b29f305bdc9e8aae8f85d7c70202cdc946ee74d644900527a26794da917899197c485369b9a8573b" \
-                                "25f984e05abcdc9e8aae8f85d7c702024caa8cb970e83abc56bb8b2aeced17cade8f7785b8edd001f3ce" \
-                                "701e60fe5a4fdc9e8aae8f85d7c702022a6e4109ffce604348638bced5992d10980e23746a9aa10aca68" \
-                                "d11f540fe7efdc9e8aae8f85d7c702021dd62568db7b8ca2197df6ce6e84ba9e15901569210287051a92" \
-                                "c0c34b5566e8dc9e8aae8f85d7c70202d26ebeb120c18565a284a1ff5593e40793571e50bb16a854e75a" \
-                                "dd022ac14eebdc9e8aae8f85d7c70202f8e625859f1626872c3032133ee4f8e35da4f1c959f2f0a0add1" \
-                                "b2c68d6e6963dc9e8aae8f85d7c702026cbaffa2d0ee402294fd0414e628948cbb9a8a467469ba1aa7a1" \
-                                "1a58e1b86d9ddc9e8aae8f85d7c70202f7fa3588c2f009056d8555505f147318beec95dd3dfb868eddd4" \
-                                "31dc50fbbc3adc9e8aae8f85d7c70202c12d36c9e2df5226b06aae7def10126fc97248982d1180b718ae" \
-                                "14b84d736836dc9e8aae8f85d7c70202901d52f6d5df23920915d784315911915db652797bd313ba23c9" \
-                                "355b9620d603dc9e8aae8f85d7c70202a27c8c7a386366eb388c740a0608d0ea905c1c3d336dac35d069" \
-                                "24abdca037b9dc9e8aae8f85d7c7020212af188d4858175d332799d9aa1ffcccbde17da218603eee481d" \
-                                "f502469e7effdc9e8aae8f85d7c7020238140a68f10c988098d72d5dce5d0155cc11bf012454dd9fae8d" \
-                                "afbb011c7a7bdc9e8aae8f85d7c702022995ad96fd6a035c5c1695bc941337590127832f96b9710de82a" \
-                                "8ab5fcc47ae0dc9e8aae8f85d7c702025c177632fee85622b0e84468ba3b65417728d0921eb61834e233" \
-                                "c8b83b8364d9dc9e8aae8f85d7c7020237b8187a0a0a4d1511142609ef989b183fe9f074a09f627e310f" \
-                                "e255e344a007dc9e8aae8f85d7c702028b8c51180477c0596eb5a25c2240017f6190af70ff8702c76a60" \
-                                "6264d168c948dc9e8aae8f85d7c70202333c654ff42010384acdb88786eef893cc27e1f9112a57bc29c9" \
-                                "dd560ad9692cdc9e8aae8f85d7c702029a52711987a601c3147991eb62e862bbcb24ff651d708937d074" \
-                                "4dd53594d679dc9e8aae8f85d7c702022f4fc0bdae633e1c5b809efc50587dd0f044d1f594a602ccdbbe" \
-                                "78f3dea330ecdc9e8aae8f85d7c70202f3eeee86fe3e6e156aad6123b17265aaeaa1fb2e0617d57abe56" \
-                                "3761babbcc1edc9e8aae8f85d7c702027cca10584ce59f16fc31d5054135094528ff03975b56c6a325b6" \
-                                "a769092940c7dc9e8aae8f85d7c70202a55e2b925ea380dd2c3afc549def1015d64f788975dd76917191" \
-                                "579443362e28dc9e8aae8f85d7c7020281ad05e1196baca39c134845e002db67b2a1379c1bd747389404" \
-                                "4cc9ebbc2c6a2101b20d061025a4ca5060809cbbd40b75a1b14e9050a6c3434a6b6791aeadd2bcf5"
+#define GENESIS_COINBASE_TX_HEX ""
